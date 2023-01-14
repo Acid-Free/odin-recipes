@@ -1,0 +1,29 @@
+* {
+  background-color: burlywood
+}
+
+h2,
+.title {
+  color: rgb(100, 50, 0)
+}
+
+.main-title {
+  font-style: italic;
+  font-size: 40px;
+}
+
+a {
+  font-size: x-large;
+  color: brown;
+}
+
+p,
+li {
+  color: rgb(50, 25, 0);
+  font-size: large;
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
