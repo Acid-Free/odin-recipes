@@ -1,3 +1,8 @@
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
 * {
   background-color: burlywood;
   /* border: 2px solid blue; */
