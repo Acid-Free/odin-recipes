@@ -1,29 +1,48 @@
 * {
-  background-color: burlywood
+  background-color: burlywood;
+  /* border: 2px solid blue; */
 }
 
 h2,
 .title {
-  color: rgb(100, 50, 0)
+  color: rgb(100, 50, 0);
 }
 
 .main-title {
+  color: rgb(75, 37, 0);
   font-style: italic;
   font-size: 40px;
 }
 
+.center {
+  text-align: center;
+}
+
 a {
   font-size: x-large;
-  color: brown;
+  color: rgb(100, 50, 0);
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 10px;
+  margin: 10px;
 }
 
 p,
 li {
+  margin: 10px;
   color: rgb(50, 25, 0);
   font-size: large;
 }
 
+ul>li {
+  list-style-type: none;
+}
+
 img {
   height: auto;
-  width: 500px;
+  width: 40%;
+  display: block;
+  margin: 0 auto;
 }
