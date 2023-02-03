@@ -41,13 +41,14 @@ li {
   font-size: large;
 }
 
-ul>li {
+ul > li {
   list-style-type: none;
 }
 
 img {
+  margin: 0px 0px;
   height: auto;
-  width: 40%;
+  width: clamp(250px, 70%, 500px);
   display: block;
   margin: 0 auto;
 }
